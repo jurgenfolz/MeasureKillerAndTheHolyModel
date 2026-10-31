@@ -1,0 +1,80 @@
+{
+  "name": "Level 1",
+  "theme": "sky",
+  "music": "level",
+  "start_dialog": "intro",
+  "dialogs": {
+    "intro": [
+      {
+        "speaker": "pedro",
+        "text": "Measure Killer! You're awake. Good. We have a problem."
+      },
+      {
+        "speaker": "pedro",
+        "text": "They made a mess in our Holy Model again..."
+      },
+      {
+        "speaker": "player",
+        "text": "Unused measures again, Master?"
+      },
+      {
+        "speaker": "pedro",
+        "text": "Unused measures, unused columns, and many-to-many relationships..."
+      },
+      {
+        "speaker": "pedro",
+        "text": "I suspect it was him again..."
+      },
+      {
+        "speaker": "player",
+        "text": "Who? not the Crossjoin Maniac? Master, I thought we defeated him!"
+      },
+      {
+        "speaker": "pedro",
+        "text": "Me too, but somehow his spirit survived. And now he is back, destroying our Holy Model again!"
+      },
+      {
+        "speaker": "pedro",
+        "text": "But enough talk, to restore order, you need to kill all unused measures, columns and many-to-many relationships and defeat the Crossjoin Maniac!"
+      },
+      {
+        "speaker": "player",
+        "text": "Understood, Master! I will restore order to the Holy Model!"
+      }
+
+    ]
+  },
+  "triggers": [
+    {
+      "name": "dirt_wall",
+      "x": 12,
+      "say": "A dirt wall! My sword can dig through it. I'll aim high and low to make a tunnel."
+    }
+  ],
+  "map": [
+    "",
+    "",
+    "",
+    "",
+    "                                                                                    L1L1L1L1L1L1L1",
+    "                                                                                  L1L1L1L1L1L1L1L1L1",
+    "                                                                                  L1L1L1L1L1L1L1L1L1",
+    "                                                                                    L1L1L1L1L1L1L1",
+    "                                                                                                                                                                                                                                              L1L1L1L1L1",
+    "                                                                                                                                                                                                                                            L1L1L1L1L1L1L1",
+    "                                                                                                                                                                                                                                            L1L1L1L1L1L1L1",
+    "                                  D1D1D1                                                  W1                                    W1W1W1                          M1                                                                          L1L1L1L1L1L1L1",
+    "                                  D1D1D1                                                  W1                                    W1W1W1                  D1D1D1D1D1D1D1D1D1D1D1D1D1D1                                                        L1L1L1L1L1L1L1",
+    "                                  D1D1D1                                                  W1                                    W1W1W1                  D1D1D1D1D1D1D1D1D1D1D1D1D1D1                                                          L1L1L1L1L1",
+    "                                  D1D1D1                                              D1D1D1D1D1D1                              W1W1W1                                          D1D1                                                              W1",
+    "                                  D1D1D1                                              D1D1D1D1D1D1              B1B1B1B1B1      W1W1W1                                          D1D1                  C1C1C1C1                                    W1",
+    "                                  D1D1D1        X1                            D1D1D1D1D1D1D1D1D1D1D1D1                          W1W1W1                                          D1D1              D1D1C1C1C1C1                                    W1",
+    "        P1        N1              D1D1D1        X1X1            M1      M1    D1D1D1D1D1D1D1D1D1D1D1D1  M1k1                    W1W1W1        M1                    M1    h1    D1D1    M1        D1D1C1C1C1C1    k1        M1      M1            W1            E1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1",
+    "D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1"
+  ]
+}

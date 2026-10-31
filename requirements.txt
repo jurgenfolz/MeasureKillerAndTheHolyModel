@@ -1,0 +1,2 @@
+# pygame-ce is the maintained community edition of pygame. It includes sound and fonts for Python 3.14.
+pygame-ce==2.5.8

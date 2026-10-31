@@ -1,0 +1,3 @@
+# Tools for working on the game. Players only need requirements.txt.
+-r requirements.txt
+pytest==9.1.1
